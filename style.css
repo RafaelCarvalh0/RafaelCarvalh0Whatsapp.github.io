@@ -17,18 +17,6 @@ body {
     text-align: center;
 }
 
-/*
-.container h2 {
-    padding-top: 20px;
-    font-size: 22pt;
-    letter-spacing: 10pt;
-    color: #015E1C;
-    text-align: center;
-    text-shadow: 4px 1px 5px rgb(255, 255, 255);
-    animation: both;
-}
-*/
-
 #linha {
     height: 5px;
     max-width: 500px;
@@ -46,6 +34,7 @@ input[type=text] {
 
 input[type=button] {
     margin-top: 10px;
+    color:#00AE00;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
