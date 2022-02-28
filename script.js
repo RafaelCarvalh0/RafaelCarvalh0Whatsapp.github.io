@@ -19,7 +19,7 @@ function chamar() {
     numero = numero.replace(/\D/g, '');
 
     if(numero.length < 11) {
-
+         alert("Número Inválido");
             window.location.reload();
 
     }
