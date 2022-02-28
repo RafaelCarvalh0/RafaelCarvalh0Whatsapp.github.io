@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Whats - Msg Direta</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>
+            <img src="/whats.png" alt="" width="300px">
+        </div>
+
+        <hr>
+
+        <div class="interno">
+
+            <input id="numero" type="text" placeholder="Digite o Telefone"
+                onkeypress="mascara(this); return event.charCode >= 48 && event.charCode <= 57" maxlength="15"> <br>
+            <br>
+
+            <a id="cel" href="https://api.whatsapp.com/send?phone=" target="_blank">
+
+                <input type="button" value="Converssar" onclick="chamar()">
+
+            </a>
+
+        </div>
+
+        <div class="footer">
+            Rafael Carvalho <b>2022</b>  - Todos os Direitos Reservados.
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

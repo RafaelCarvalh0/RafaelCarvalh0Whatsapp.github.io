@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(220, 248, 204);
+}
+
+.container {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    background: url('fundo2.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.container>div {
+    padding: 10px;
+    text-align: center;
+}
+
+/*
+.container h2 {
+    padding-top: 20px;
+    font-size: 22pt;
+    letter-spacing: 10pt;
+    color: #015E1C;
+    text-align: center;
+    text-shadow: 4px 1px 5px rgb(255, 255, 255);
+    animation: both;
+}
+*/
+
+#linha {
+    height: 5px;
+    max-width: 500px;
+    background-color: black;
+}
+
+input[type=text] {
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-top: 25px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+input[type=button] {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: 600;
+    border: 1px solid #CCC;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    color: white;
+    background-color: #1FBF01;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.interno {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 20px;
+    color: #015e1b8e;
+    text-align: center;
+}
+
