@@ -26,7 +26,7 @@ function chamar() {
 
     else{
 
-    cel.setAttribute('href', 'https://api.whatsapp.com/send?phone=' + numero)
+    cel.setAttribute('href', 'https://api.whatsapp.com/send?phone=55' + numero)
 
     }
 
